@@ -15,7 +15,8 @@ h1 {
     padding: 20px;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 12px;
     margin: 8px 0px;
@@ -33,17 +34,19 @@ button {
     cursor: pointer;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     text-decoration: none;
     color: darkslategray;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     color: forestgreen;
 }
 
 .greska {
-    color : red;
+    color: red;
 }
 
 #artikli {
