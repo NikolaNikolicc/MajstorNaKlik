@@ -18,4 +18,14 @@ $(document).ready(function() {
             $(this).css("border", "none");
         }
     });
+
+    $("a, h1").on({
+        mouseenter : function() {
+            $(this).css("font-weight", "bold");
+        },
+
+        mouseleave : function() {
+            $(this).css("font-weight", "normal");
+        }
+    });
 });
