@@ -1,31 +1,24 @@
 $(document).ready(function () {
     $("#logo").on({
         mouseenter: function () {
-            $(this).css("border-color", "yellow");
+            $(this).css("border-color", "#444444");
         },
 
         mouseleave: function () {
             $(this).css("border-color", "black");
         }
     });
-
-    $("button").on({
-        mouseenter: function () {
-            $(this).css("border", "4px solid yellow");
-        },
-
-        mouseleave: function () {
-            $(this).css("border", "none");
-        }
-    });
-
-    $("a, h1").on({
-        mouseenter: function () {
-            $(this).css("font-weight", "bold");
-        },
-
-        mouseleave: function () {
-            $(this).css("font-weight", "normal");
-        }
-    });
 });
+
+function registrujSe() {
+    window.location.href = "logovanje.html";
+}
+
+function prijavi() {
+    if (confirm("Da li zelite da prijavite da majstora nasem adminu?")) {
+        window.location.href = "index.html";
+
+    } else {
+        return;
+    }
+}
