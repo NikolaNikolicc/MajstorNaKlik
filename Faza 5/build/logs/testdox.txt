@@ -1,0 +1,34 @@
+Administrator Controller
+ [x] Get author session
+ [x] Logout
+
+Chat Controller
+ [x] Get author session
+ [x] Set read messages
+ [x] Check messages for author
+ [x] Change status received
+ [x] Get new messages
+
+Gost Controller
+ [x] Get author session
+ [x] Login submit
+
+Korisnik Controller
+ [x] Get author session
+ [x] Logout
+
+Majstor Controller
+ [x] Get author session
+ [x] Logout
+
+Example Database
+ [x] Model find all
+ [x] Soft delete leaves row
+
+Example Session
+ [x] Session simple
+
+Health
+ [x] Is defined app path
+ [x] Base url has been set
+

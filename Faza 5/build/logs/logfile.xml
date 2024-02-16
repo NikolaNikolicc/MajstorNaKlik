@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="19" assertions="30" errors="0" warnings="1" failures="0" skipped="0" time="0.714321">
+    <testsuite name="App" tests="19" assertions="30" errors="0" warnings="1" failures="0" skipped="0" time="0.714321">
+      <testsuite name="AdministratorControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\AdministratorControllerTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.146214">
+        <testcase name="testGetAuthorSession" class="AdministratorControllerTest" classname="AdministratorControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\AdministratorControllerTest.php" line="17" assertions="1" time="0.113367"/>
+        <testcase name="testLogout" class="AdministratorControllerTest" classname="AdministratorControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\AdministratorControllerTest.php" line="31" assertions="3" time="0.032848"/>
+      </testsuite>
+      <testsuite name="ChatControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\ChatControllerTest.php" tests="5" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.213714">
+        <testcase name="testGetAuthorSession" class="ChatControllerTest" classname="ChatControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\ChatControllerTest.php" line="17" assertions="1" time="0.045407"/>
+        <testcase name="testSetReadMessages" class="ChatControllerTest" classname="ChatControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\ChatControllerTest.php" line="31" assertions="2" time="0.047015"/>
+        <testcase name="testCheckMessagesForAuthor" class="ChatControllerTest" classname="ChatControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\ChatControllerTest.php" line="46" assertions="2" time="0.035860"/>
+        <testcase name="testChangeStatusReceived" class="ChatControllerTest" classname="ChatControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\ChatControllerTest.php" line="59" assertions="2" time="0.040167"/>
+        <testcase name="testGetNewMessages" class="ChatControllerTest" classname="ChatControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\ChatControllerTest.php" line="72" assertions="2" time="0.045266"/>
+      </testsuite>
+      <testsuite name="GostControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\GostControllerTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.088922">
+        <testcase name="testGetAuthorSession" class="GostControllerTest" classname="GostControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\GostControllerTest.php" line="17" assertions="1" time="0.038478"/>
+        <testcase name="testLoginSubmit" class="GostControllerTest" classname="GostControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\GostControllerTest.php" line="30" assertions="1" time="0.050445"/>
+      </testsuite>
+      <testsuite name="KorisnikControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\KorisnikControllerTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.086344">
+        <testcase name="testGetAuthorSession" class="KorisnikControllerTest" classname="KorisnikControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\KorisnikControllerTest.php" line="17" assertions="1" time="0.038615"/>
+        <testcase name="testLogout" class="KorisnikControllerTest" classname="KorisnikControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\KorisnikControllerTest.php" line="30" assertions="3" time="0.047728"/>
+      </testsuite>
+      <testsuite name="MajstorControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\MajstorControllerTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.073117">
+        <testcase name="testGetAuthorSession" class="MajstorControllerTest" classname="MajstorControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\MajstorControllerTest.php" line="17" assertions="1" time="0.037142"/>
+        <testcase name="testLogout" class="MajstorControllerTest" classname="MajstorControllerTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Controllers\MajstorControllerTest.php" line="30" assertions="3" time="0.035975"/>
+      </testsuite>
+      <testsuite name="App\Models\PorukaModelTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\app\Models\PorukaModelTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.002681">
+        <testcase name="Warning" assertions="0" time="0.002681">
+          <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "App\Models\PorukaModelTest".
+
+phpvfscomposer://C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\vendor\phpunit\phpunit\phpunit:106</warning>
+        </testcase>
+      </testsuite>
+      <testsuite name="ExampleDatabaseTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.093329">
+        <testcase name="testModelFindAll" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\database\ExampleDatabaseTest.php" line="17" assertions="1" time="0.048309"/>
+        <testcase name="testSoftDeleteLeavesRow" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\database\ExampleDatabaseTest.php" line="28" assertions="2" time="0.045020"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002929">
+        <testcase name="testSessionSimple" class="ExampleSessionTest" classname="ExampleSessionTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\session\ExampleSessionTest.php" line="11" assertions="1" time="0.002929"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.007069">
+        <testcase name="testIsDefinedAppPath" class="HealthTest" classname="HealthTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\unit\HealthTest.php" line="13" assertions="1" time="0.002661"/>
+        <testcase name="testBaseUrlHasBeenSet" class="HealthTest" classname="HealthTest" file="C:\wamp64\www\MajstorNaKlik\project_MajstorNaKlik\Dokumentacija\Faza 5\tests\unit\HealthTest.php" line="18" assertions="2" time="0.004408"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,1210 @@
+{
+  "id": "d31fe541-f277-4b90-8604-55cafd78ceb4",
+  "version": "2.0",
+  "name": "Testiranje_SSU_Pavle_Sarenac",
+  "url": "http://localhost:8080/",
+  "tests": [{
+    "id": "7767529c-2468-4952-9209-49b07eda85ae",
+    "name": "T1_uspesno_ocenjivanje_bez_komentara",
+    "commands": [{
+      "id": "dedcaa14-648a-446c-8924-d3492f9fb69f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Korisnik/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f593676-9aa0-4bd6-a132-ef5089dcd9ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x657",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0d6ee76-98d6-4b94-8e12-208d219ec320",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb8f326f-e26d-422d-8c4a-145e988842fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.majstorLink:nth-child(3) > .alert",
+      "targets": [
+        ["css=.majstorLink:nth-child(3) > .alert", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42900c22-860d-40db-bef0-76bd8b80145d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .btn-down",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak o majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d4dcd0-fa78-49c5-a66b-74322b1973e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=aaa",
+      "targets": [
+        ["id=aaa", "id"],
+        ["css=#aaa", "css:finder"],
+        ["xpath=//label[@id='aaa']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[2]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7322681c-2364-464b-bc08-12e400b96aeb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[@id='speed-star-2']",
+      "targets": [
+        ["xpath=//label[@id='speed-star-2']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/label[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c80610-a045-4a6c-b0a4-4036784eee8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .star:nth-child(6)",
+      "targets": [
+        ["css=.row:nth-child(8) .star:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[6]/div[2]/label[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8acbd319-3a02-4ce2-8098-185bf33ab5bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-review-btn",
+      "targets": [
+        ["id=submit-review-btn", "id"],
+        ["css=#submit-review-btn", "css:finder"],
+        ["xpath=//button[@id='submit-review-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e0e8375-f6d5-4f5c-9044-6104c137e068",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Pretražite majstore:')]", "xpath:innerText"]
+      ],
+      "value": "Pretražite majstore:"
+    }]
+  }, {
+    "id": "5896e63a-bd80-47f9-9637-ed54167b9d7c",
+    "name": "T2_usesno_ocenjivanje_sa_komentarom",
+    "commands": [{
+      "id": "96411f78-814e-4328-824b-327b7a3c58c7",
+      "comment": "",
+      "command": "open",
+      "target": "/Korisnik/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54a6b179-619c-48df-9663-98b33b23e66f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcc60a56-506e-426a-af65-1edc216c3cd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdf24dac-a8cd-4fdb-906b-f75d51007d51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.majstorLink:nth-child(3) > .alert",
+      "targets": [
+        ["css=.majstorLink:nth-child(3) > .alert", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "373bdc8b-1410-4b95-8969-066deee109ba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.majstorLink:nth-child(3) > .alert",
+      "targets": [
+        ["css=.majstorLink:nth-child(3) > .alert", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45dbb6ae-a597-47da-967a-54dfd8aa8721",
+      "comment": "",
+      "command": "click",
+      "target": "css=.majstorLink:nth-child(5) .col:nth-child(1)",
+      "targets": [
+        ["css=.majstorLink:nth-child(5) .col:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d76f8c67-8e0e-4d61-94f6-bf6a81d4ac0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .btn-down",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak o majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a189b08-fbed-4a73-a28d-6a0ab5bdb60e",
+      "comment": "",
+      "command": "click",
+      "target": "id=aaa",
+      "targets": [
+        ["id=aaa", "id"],
+        ["css=#aaa", "css:finder"],
+        ["xpath=//label[@id='aaa']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[2]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d18fed60-ebad-4c03-a4d2-3e1c511d6a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(5) .star:nth-child(6)",
+      "targets": [
+        ["css=.row:nth-child(5) .star:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div[2]/label[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/label[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0945513e-001a-4c9a-bfcd-a9e66bd4ab01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .star:nth-child(10)",
+      "targets": [
+        ["css=.row:nth-child(8) .star:nth-child(10)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[6]/div[2]/label[5]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec6ea7b-bacc-4d5d-89f9-475f3341ac5e",
+      "comment": "",
+      "command": "click",
+      "target": "name=tekstRecenzije",
+      "targets": [
+        ["name=tekstRecenzije", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//textarea[@name='tekstRecenzije']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[8]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e3c7d8-a46b-4b71-ad66-2e512bf8bdd3",
+      "comment": "",
+      "command": "type",
+      "target": "name=tekstRecenzije",
+      "targets": [
+        ["name=tekstRecenzije", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//textarea[@name='tekstRecenzije']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[8]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Kvalitet odlican, cena je losa."
+    }, {
+      "id": "8d1319ef-7e3a-4b24-840b-65a85a64daa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-review-btn",
+      "targets": [
+        ["id=submit-review-btn", "id"],
+        ["css=#submit-review-btn", "css:finder"],
+        ["xpath=//button[@id='submit-review-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34cacea5-949d-430f-8f8d-f57f73fa39f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Pretražite majstore:')]", "xpath:innerText"]
+      ],
+      "value": "Pretražite majstore:"
+    }]
+  }, {
+    "id": "34c84ad4-867f-4e3d-92c9-d50ce90c6581",
+    "name": "T3_neuspesno_ocenjivanje_bez_komentara_vec_ocenjen",
+    "commands": [{
+      "id": "12484d22-b053-4d59-b308-97b5f16a0895",
+      "comment": "",
+      "command": "open",
+      "target": "/Korisnik/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0098ab3-389a-4fd0-a8e5-f8ca69030ceb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60834407-451d-4d6b-99ad-0e734bee5ac2",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a52713-6c93-4f68-acb3-79cdd7b6e92e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.majstorLink:nth-child(5) .col:nth-child(1)",
+      "targets": [
+        ["css=.majstorLink:nth-child(5) .col:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d310389-88cb-4dc9-8309-b5d1a920d298",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .btn-down",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak o majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91814694-0b04-417f-8189-4ec3db7cb0a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .star:nth-child(6)",
+      "targets": [
+        ["css=.row:nth-child(2) .star:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[2]/div[2]/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f939c150-5375-4fdc-9b6b-a488af604c12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(5) .star:nth-child(6)",
+      "targets": [
+        ["css=.row:nth-child(5) .star:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div[2]/label[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/label[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1a6550-d82f-47ef-9a4a-3ded0b1a8366",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .star:nth-child(10)",
+      "targets": [
+        ["css=.row:nth-child(8) .star:nth-child(10)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[6]/div[2]/label[5]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b84eed1b-0535-488b-8feb-bdef0dde4c21",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-review-btn",
+      "targets": [
+        ["id=submit-review-btn", "id"],
+        ["css=#submit-review-btn", "css:finder"],
+        ["xpath=//button[@id='submit-review-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c69b45d5-3246-4b82-9e15-3ca88ce1362a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alert > h3",
+      "targets": [
+        ["css=.alert > h3", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div/div[2]/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Već ste ocenili ovog majstora!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d50101be-cfba-4e05-9e8c-4faeae70abd5",
+    "name": "T4_neuspesno_ocenjivanje_sa_komentarom_vec_ocenjen",
+    "commands": [{
+      "id": "9ea6c367-300d-40a6-9111-98c6f7486dc0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Korisnik/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c5e3af7-1285-44ca-ad97-cbf3b16b4902",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x657",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42685919-30cd-4861-9ccb-b70d3bd176e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3208871-a6cc-4208-a29b-e1b8a96f9279",
+      "comment": "",
+      "command": "click",
+      "target": "css=.majstorLink:nth-child(3) .col:nth-child(1)",
+      "targets": [
+        ["css=.majstorLink:nth-child(3) .col:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71df8954-7d24-4869-8b1c-500b8535f0f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .btn-down",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak o majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d2b0007-0372-4e80-9251-81e61cbcfb37",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[@id='price-star-2']",
+      "targets": [
+        ["xpath=//label[@id='price-star-2']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[2]/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4de425d-604b-45df-8b72-1e2be844b666",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[@id='speed-star-2']",
+      "targets": [
+        ["xpath=//label[@id='speed-star-2']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[4]/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/label[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46dc7c5c-95fc-4dd3-898f-1168d5e57b2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .star:nth-child(8)",
+      "targets": [
+        ["css=.row:nth-child(8) .star:nth-child(8)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[6]/div[2]/label[4]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc409fd-cfd5-4a54-8d71-d3f5bb76ba75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .star:nth-child(8)",
+      "targets": [
+        ["css=.row:nth-child(8) .star:nth-child(8)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[6]/div[2]/label[4]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b23451c8-f342-4a06-bd3b-f2057ad0ca23",
+      "comment": "",
+      "command": "click",
+      "target": "name=tekstRecenzije",
+      "targets": [
+        ["name=tekstRecenzije", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//textarea[@name='tekstRecenzije']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[8]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bb91eb2-3788-4f9c-8a3b-c74bef87acdf",
+      "comment": "",
+      "command": "type",
+      "target": "name=tekstRecenzije",
+      "targets": [
+        ["name=tekstRecenzije", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//textarea[@name='tekstRecenzije']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[8]/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Tekst tekst tekst"
+    }, {
+      "id": "b66a6655-0e65-4840-aadf-27f366faa4d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-review-btn",
+      "targets": [
+        ["id=submit-review-btn", "id"],
+        ["css=#submit-review-btn", "css:finder"],
+        ["xpath=//button[@id='submit-review-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dddcf7a-f10d-40a0-9a5b-efa67984abbc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alert > h3",
+      "targets": [
+        ["css=.alert > h3", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div/div[2]/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Već ste ocenili ovog majstora!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6381c564-3ba8-4d4e-b195-51a06e38c591",
+    "name": "T5_neuspesno_ocenjivanje_nema_svih_ocena",
+    "commands": [{
+      "id": "d15f7902-cfac-48e0-a212-286a2fadcc42",
+      "comment": "",
+      "command": "open",
+      "target": "/Korisnik/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "004b89b2-2659-4f50-b4a4-c591f6680779",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x656",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8391529-cca9-4218-8711-769c8bf02d86",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83cfd805-6325-4a2b-b8f4-a1772efade27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.majstorLink:nth-child(2) .col:nth-child(1)",
+      "targets": [
+        ["css=.majstorLink:nth-child(2) .col:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5634f917-905d-430a-8749-39a519f1a82d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .btn-down",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak o majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7652ef7d-5303-422e-9463-cfe7d15db39d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .star:nth-child(6)",
+      "targets": [
+        ["css=.row:nth-child(2) .star:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='reviewForm']/div[2]/div[2]/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b63ea81-8cc0-4a4a-9eac-b5c19493b04d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-review-btn",
+      "targets": [
+        ["id=submit-review-btn", "id"],
+        ["css=#submit-review-btn", "css:finder"],
+        ["xpath=//button[@id='submit-review-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='reviewForm']/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9857c1d-1de5-4d49-aa7d-5a33b7d5e718",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Niste ocenili majstora po svim parametrima!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9fc8d012-f2da-4aef-ab9e-1640456b0008",
+    "name": "T6_pregled_profila_klijenta_majstor",
+    "commands": [{
+      "id": "3571bb5b-0d1a-4370-9f29-ac4b06117f19",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Majstor/prikazProfilaKorisnika/Filip/Gaji%C4%87/Ni%C5%A1/+381-62-468-330/fikus@gmail.com/43",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd904377-9a5f-445d-a047-614946c8832d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2be0ff9f-0b1f-4dfc-8523-28f4f4995e36",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=porukaMajstor",
+      "targets": [
+        ["id=porukaMajstor", "id"],
+        ["css=#porukaMajstor", "css:finder"],
+        ["xpath=//button[@id='porukaMajstor']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi poruku klijentu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fc799a17-5f9e-4801-8f28-71de03fad36d",
+    "name": "T7_pregled_profila_klijenta_administrator",
+    "commands": [{
+      "id": "ba3a4c70-dcaa-486b-a504-6e80e3697f34",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Administrator/prikazProfilaKorisnika/Irina/Majstorovi%C4%87/U%C5%BEice/+381-62-468-331/rinka@gmail.com/44",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4f1e685-2a8d-443f-aab9-b3cde4636670",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34c8b4e8-75f6-485d-9cb0-967b97be8155",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=porukaMajstor",
+      "targets": [
+        ["id=porukaMajstor", "id"],
+        ["css=#porukaMajstor", "css:finder"],
+        ["xpath=//button[@id='porukaMajstor']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi poruku klijentu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8f440714-1d5f-46c1-8095-6a1fcd24f1cf",
+    "name": "T8_pregled_profila_majstora_klijent",
+    "commands": [{
+      "id": "7f4e22b0-c2b1-4f2f-a406-20a45095be1e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Korisnik/prikazProfilaMajstora/Du%C5%A1an/Pe%C5%A1i%C4%87/Serviser%20mobilnih%20telefona/Kraljevo/+381-62-468-316/pesou@gmail.com/29",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10a24c8f-67f3-4b27-aec0-71b738d24e68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e432ee13-f75f-48e1-8cf9-d060661a492d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=porukaMajstor",
+      "targets": [
+        ["id=porukaMajstor", "id"],
+        ["css=#porukaMajstor", "css:finder"],
+        ["xpath=//button[@id='porukaMajstor']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi poruku majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58dfd070-3a60-40cf-bde3-aba906d04453",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=a > .btn-side",
+      "targets": [
+        ["css=a > .btn-side", "css:finder"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Prijavi majstora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "013c0a03-2462-422d-8fec-db9efb2212fb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=a:nth-child(1) > .btn-down",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi svoj utisak o majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75744208-84d7-4125-98b3-cb273ed5e610",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=a:nth-child(2) > .btn",
+      "targets": [
+        ["css=a:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pročitaj recenzije majstora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0f0d3ad4-c91f-4ba3-b5ad-079c1462c253",
+    "name": "T9_pregled_profila_majstora_administrator",
+    "commands": [{
+      "id": "aebdd5a1-9b05-47ed-9919-2449a307f2f0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Administrator/prikazProfilaMajstora/Du%C5%A1an/Pe%C5%A1i%C4%87/Serviser%20mobilnih%20telefona/Kraljevo/+381-62-468-316/pesou@gmail.com/29",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c9b9730-0000-4fb1-83eb-cf860606f0dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fcdb153-27bd-4bd7-85c3-a582860b0bba",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=porukaMajstor",
+      "targets": [
+        ["id=porukaMajstor", "id"],
+        ["css=#porukaMajstor", "css:finder"],
+        ["xpath=//button[@id='porukaMajstor']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ostavi poruku majstoru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be5b612-e01e-4830-ac1a-b872be57f802",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=a:nth-child(1) > .btn-side",
+      "targets": [
+        ["css=a:nth-child(1) > .btn-side", "css:finder"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vidi sve prijave majstora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e53996f3-b898-40ec-86c7-081356d61f8b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.btn-down",
+      "targets": [
+        ["css=.btn-down", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pročitaj recenzije majstora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1167a780-1a0a-409b-91de-1cbc40b03c5b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=a:nth-child(2) > .btn",
+      "targets": [
+        ["css=a:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Izbaci majstora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "65d437e6-cfd6-4c7f-a92f-4bddbfd1369d",
+    "name": "T10_pregled_recenzija_majstora",
+    "commands": [{
+      "id": "9a516a60-fa09-45dc-9012-ad9b88aad2ba",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Korisnik/index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c14628a0-3c1d-4fbf-820f-381d4965a2b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x657",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "720754c9-d379-458a-8900-2fa46c9cf8a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "455325ee-8e8f-4f25-a47c-d0ecee061b86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.majstorLink:nth-child(2) > .alert",
+      "targets": [
+        ["css=.majstorLink:nth-child(2) > .alert", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "850477e8-f224-4c2c-a814-bbc71415c197",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .btn",
+      "targets": [
+        ["css=a:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pročitaj recenzije majstora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40065887-dc4c-41f7-b735-b620d5ecd1e0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1 > strong",
+      "targets": [
+        ["css=h1 > strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"]
+      ],
+      "value": "Recenzije majstora: Dušan Pešić (Serviser mobilnih telefona)"
+    }]
+  }, {
+    "id": "e85056c4-24bb-4960-82d8-88d8dbd85038",
+    "name": "T11_pretraga_i_sortiranje_majstora_nema_majstora",
+    "commands": [{
+      "id": "596f255e-93f0-46b7-ad7e-eda699c3f288",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0751743-8bda-4428-a992-b8eaba8694cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73bfa91d-aebf-4aac-a577-09aa026cd51c",
+      "comment": "",
+      "command": "click",
+      "target": "name=handyman",
+      "targets": [
+        ["name=handyman", "name"],
+        ["css=.row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='handyman']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f59571cf-8353-4a15-8f91-3b9f029a9f72",
+      "comment": "",
+      "command": "type",
+      "target": "name=handyman",
+      "targets": [
+        ["name=handyman", "name"],
+        ["css=.row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='handyman']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "moler"
+    }, {
+      "id": "3dee626c-51ce-497a-afdc-09f08f8d8c0a",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=.row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a599754-37c5-4c9f-8a70-2749fd146ec5",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=.row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Beograd"
+    }, {
+      "id": "b9b477d3-5e31-44d9-8af7-538bde9dd0b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col > .form-check:nth-child(2) > .form-check-label",
+      "targets": [
+        ["css=.row:nth-child(4) > .col > .form-check:nth-child(2) > .form-check-label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Brzina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "309c1fc9-ddb0-4189-b30e-8c24570b52af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col > .form-check:nth-child(2) > .form-check-label",
+      "targets": [
+        ["css=.row:nth-child(4) > .col > .form-check:nth-child(2) > .form-check-label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Brzina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f35e49e-0cf2-41ba-9e7f-8cdd2525921e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col > .form-check:nth-child(3) > .form-check-label",
+      "targets": [
+        ["css=.row:nth-child(4) > .col > .form-check:nth-child(3) > .form-check-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Kvalitet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73fbd397-ff02-4948-9130-83ab4148ec2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .form-check:nth-child(2) > .form-check-label",
+      "targets": [
+        ["css=.row:nth-child(8) .form-check:nth-child(2) > .form-check-label", "css:finder"],
+        ["xpath=//div[8]/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed62f2e5-f83d-4a04-b3bc-39563012b0d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-check:nth-child(1) > .form-check-label:nth-child(2)",
+      "targets": [
+        ["css=.form-check:nth-child(1) > .form-check-label:nth-child(2)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Cena')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cc69d27-d917-4d7f-b925-dfa754d72307",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d4999f7-fc4c-4682-a331-442f13a035ad",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alert > h3",
+      "targets": [
+        ["css=.alert > h3", "css:finder"],
+        ["xpath=//div[@id='searchResultsContainer']/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Nema majstora za unete parametre pretrage!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62e064f0-cb78-4a48-ace4-a3028aad2daa",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1 > strong",
+      "targets": [
+        ["css=h1 > strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Rezultat pretrage za: moler (vrsta majstora) Beograd (grad)')]", "xpath:innerText"]
+      ],
+      "value": "Rezultat pretrage za: moler (vrsta majstora) Beograd (grad)"
+    }]
+  }, {
+    "id": "03cbfe5c-37e6-4414-8908-84d0edffbb03",
+    "name": "T12_pretraga_i_sortiranje_majstora_pronadjeni_majstori",
+    "commands": [{
+      "id": "12e4fb93-a499-4970-af6f-cdff36395d2d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d2b7010-0240-4dce-98f2-0b402b7f446b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "237ae38e-0db0-4d60-9604-2b392ca653fd",
+      "comment": "",
+      "command": "click",
+      "target": "name=handyman",
+      "targets": [
+        ["name=handyman", "name"],
+        ["css=.row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='handyman']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6960dd3d-8dee-4f79-9c0b-bec72ea800b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=handyman",
+      "targets": [
+        ["name=handyman", "name"],
+        ["css=.row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='handyman']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Auto mehanicar"
+    }, {
+      "id": "40059c0a-53f0-468c-a4a0-4d1572902ad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col > .form-check:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(4) > .col > .form-check:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81cf54a8-7ce7-4aff-979d-04f52a307b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col > .form-check:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(4) > .col > .form-check:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b68021-23ec-4495-862e-ae5936b08318",
+      "comment": "",
+      "command": "click",
+      "target": "id=criteriaPrice",
+      "targets": [
+        ["id=criteriaPrice", "id"],
+        ["name=price", "name"],
+        ["css=#criteriaPrice", "css:finder"],
+        ["xpath=//input[@id='criteriaPrice']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52512ffb-2e2e-49a7-9208-84c1ad42bdde",
+      "comment": "",
+      "command": "click",
+      "target": "id=criteriaSpeed",
+      "targets": [
+        ["id=criteriaSpeed", "id"],
+        ["name=speed", "name"],
+        ["css=#criteriaSpeed", "css:finder"],
+        ["xpath=//input[@id='criteriaSpeed']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34edb949-2647-4e9d-a205-f7982b95d633",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(7) .form-check:nth-child(2) > .form-check-label",
+      "targets": [
+        ["css=.row:nth-child(7) .form-check:nth-child(2) > .form-check-label", "css:finder"],
+        ["xpath=//div[7]/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f28ba1fb-4a85-48dd-a31f-efbfca086d00",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c8d041-0cfd-48c8-a0c7-980a5fbd5cac",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1 > strong",
+      "targets": [
+        ["css=h1 > strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Rezultat pretrage za: Auto mehanicar (vrsta majstora)')]", "xpath:innerText"]
+      ],
+      "value": "Rezultat pretrage za: Auto mehanicar (vrsta majstora)"
+    }]
+  }, {
+    "id": "caa124ef-c929-4d1b-8c42-3a230466aca1",
+    "name": "T13_pretraga_i_sortiranje_majstora_svi_majstori",
+    "commands": [{
+      "id": "b2b94114-e7b8-4058-bac5-323634d73123",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f489a81-8104-4815-8d91-5a972786d36c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x654",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1792a8e-3c43-4b06-aa39-5cfafcf4cbcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn",
+      "targets": [
+        ["id=submit-btn", "id"],
+        ["css=#submit-btn", "css:finder"],
+        ["xpath=//button[@id='submit-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cdf11cd-a544-4544-a8f3-e38b7460444b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1 > strong",
+      "targets": [
+        ["css=h1 > strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Svi majstori:')]", "xpath:innerText"]
+      ],
+      "value": "Svi majstori:"
+    }]
+  }],
+  "suites": [{
+    "id": "88342de2-556d-40eb-9fee-f0488050e5dc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/Administrator/prikazProfilaMajstora/Du%C5%A1an/Pe%C5%A1i%C4%87/Serviser%20mobilnih%20telefona/Kraljevo/+381-62-468-316/pesou@gmail.com/29", "http://localhost:8080/Majstor/prikazProfilaKorisnika/Filip/Gaji%C4%87/Ni%C5%A1/+381-62-468-330/fikus@gmail.com/43"],
+  "plugins": []
+}
